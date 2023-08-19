@@ -17,7 +17,7 @@ public class MainFiguras {
                 System.out.println("Area del cuadrado: " + cuadrado1.calculaArea());
                 System.out.println("Diagonal del cuadrado: " + cuadrado1.calculaDiagonal());
                 System.out.println("Perímetro del cuadrado: " + cuadrado1.calcularPeri());
-                System.out.println("El lado asignado del ID es: " + cuadrado1.obtenerLado());
+               
                 break; 
             } else if (menu == 2) {
                 Circulo circulo1 = new Circulo(16);
@@ -25,7 +25,7 @@ public class MainFiguras {
                 System.out.println("Radio del circulo: " + circulo1.obtenerRadio());
                 System.out.println("Area del Circulo: " + circulo1.calculaAreaCirculo());
                 System.out.println("Circunferencia del Circulo: " + circulo1.calcularCircunferencia());
-                System.out.println("El radio asignado del ID es: " + circulo1.obtenerradioCirculo());
+             
                 break; 
             } else {
                 System.out.println("Número incorrecto, no selecciono ninguna opción valida intentelo de nuevo.");
