@@ -13,9 +13,9 @@ public class Circulo {
 	return (Math.PI*2)*radio;
 	}
 
-	public double obtenerradioCirculo() {
-        return 169599/100;
-    }
+	public Circulo() {
+		this (169599);
+	}
 	public double obtenerRadio() {
 		return radio;
 	}
