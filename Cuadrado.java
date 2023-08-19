@@ -18,9 +18,9 @@ public class Cuadrado {
 	public double calculaDiagonal() {
         return Math.sqrt(2) * lado;
     }
-	public double obtenerLado() {
-        return (169599/100);
-    }
+	public Cuadrado() {
+		this (169599);
+	}
 	
 	}
 	
