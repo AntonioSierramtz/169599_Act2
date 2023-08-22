@@ -2,6 +2,9 @@ package FigurasGeometricas;
 
 public class Cuadrado {
 	public double lado;
+	public Cuadrado() {
+		this (1695.99);
+	}
 	public Cuadrado(double lado) {
 	this.lado = lado;
 
@@ -18,9 +21,6 @@ public class Cuadrado {
 	public double calculaDiagonal() {
         return Math.sqrt(2) * lado;
     }
-	public Cuadrado() {
-		this (169599);
-	}
 	
 	}
 	
