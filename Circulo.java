@@ -3,7 +3,7 @@ package FigurasGeometricas;
 public class Circulo {
 	public double radio;
 	public Circulo() {
-		this (169599);
+		this (1695.99);
 	}
 	public Circulo(double radio) {
 	this.radio = radio;
@@ -12,7 +12,7 @@ public class Circulo {
 	return Math.PI* (radio*radio); 
 	}
 	public double calcularCircunferencia() {
-	return (Math.PI*2)*radio;
+	 return lado * Math.sqrt(2);
 	}
 	public double obtenerRadio() {
 		return radio;
